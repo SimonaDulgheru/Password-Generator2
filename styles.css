@@ -1,0 +1,206 @@
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    body{
+        padding: 0px;
+        margin: auto;
+    }
+    
+    
+    #heading-title {
+        text-align: center;
+        font-family: 'Marmelad', sans-serif;
+        color: rgb(218, 19, 19);
+        font-weight: 25px; 
+        font-size: 20px;
+        margin-top: 10%;
+    }
+
+
+    .line-title{
+        height: 1px;
+        background: rgb(255, 255, 255);
+        width: 55%;
+        margin: auto;
+        box-shadow: 1px 1px 2px rgb(70, 69, 69);
+    }
+    
+    #heading-main{
+        font-family: 'Marmelad', sans-serif;
+        color: rgb(0, 126, 6);
+        font-size: 100%;
+        text-align: center;
+        margin-bottom: 20%;
+        margin-top: 5%;
+    }
+
+    .container{
+        width: 50%;
+        height: 100%;
+        border-radius: 10%;
+        padding: 5% 10%;
+        margin: auto;
+        box-shadow: 0 0 10px rgb(143, 143, 143);
+        margin-top: 15%;
+        background: rgb(255, 255, 255);
+    }
+
+    #gen-password{
+        height: 50%;
+        border: 3px dotted rgb(173, 173, 173);
+        border-radius: 20px;
+        padding: 10% 5%;
+    }
+    
+        
+    .wrapper-mobile{
+        margin-top: 20px;
+        max-width: 100%;
+        height: 350px;
+        border-radius: 5px;
+        background: white;
+    }
+        
+    .buttons{
+        display: flex;
+        margin-top: 10%;
+    }
+        
+    .button-mobile{
+        border:0px;
+        background: rgb(167, 0, 0);
+        color: white;
+        font-family: 'Marmelad', sans-serif;
+        font-size: 10px;
+        border-radius: 10px;
+        padding: 5px 5px 5px 5px; 
+        cursor: pointer;
+        margin-right: 10%;
+        box-shadow: 0 0 10px rgb(66, 66, 66);
+    }
+        
+    .copy-mobile{
+        padding: 10px 25px 10px 25px; 
+        background: rgb(0, 126, 6);
+        border:0px;
+        color: white;
+        font-family: 'Marmelad', sans-serif;
+        font-size: 10px;
+        border-radius: 10px;
+        padding: 5px 5px 5px 5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgb(143, 143, 143);
+    }
+        
+    
+}
+
+@media (min-width: 1000px) {
+
+    body{
+        padding: 0px;
+        margin: auto;
+    }
+    
+    h1{
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        color: rgb(218, 19, 19);
+        font-weight: 35px;
+        margin-top: 30px;
+    }
+    
+    h2{
+        margin-left: 30px;
+        font-family: 'Orbitron', sans-serif;
+        color: rgb(66, 66, 66);
+        font-weight: 50px;
+        text-align: center;
+    }
+
+
+    
+    .container-desktop{
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+        margin-top: 60px;
+        width: 900px;
+        height: 450px;
+        border-radius: 5px;
+        background: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgb(143, 143, 143);
+    }
+    
+    .desktop-2{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 20px 30px 30px 30px; 
+    }
+    
+    .genButton{
+        border:0px;
+        background: rgb(167, 0, 0);
+        color: white;
+        font-family: 'Marmelad', sans-serif;
+        font-size: 20px;
+        border-radius: 20px;
+        padding: 10px 25px 10px 25px; 
+        cursor: pointer;
+    }
+
+    .button-mouse{
+        border:0px;
+        background: rgb(17, 17, 17);
+        color: rgb(206, 1, 1);
+        font-family: 'Marmelad', sans-serif;
+        font-size: 20px;
+        font-weight: 20px;
+        border-radius: 20px;
+        padding: 10px 25px 10px 25px;
+    }
+    
+    .copyButton{
+        padding: 10px 25px 10px 25px; 
+        background: rgb(167, 167, 167);
+        border:0px;
+        color: white;
+        font-family: 'Marmelad', sans-serif;
+        font-size: 20px;
+        padding: 10px 25px 10px 25px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .copy-mouse{
+        padding: 10px 25px 10px 25px; 
+        background: rgb(61, 61, 61);
+        border:0px;
+        color: white;
+        font-family: 'Marmelad', sans-serif;
+        font-size: 20px;
+        padding: 10px 25px 10px 25px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    textarea{
+        height: 200px;
+        align-items: center;
+        width: 800px;
+        margin-left: 30px;
+        border: 4px dotted rgb(173, 173, 173);
+        border-radius: 20px;
+        padding: 50px 20px 10px 20px;
+        text-align: center;
+        font-family: 'Marmelad', sans-serif;
+    }
+  
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Marmelad&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class = "mobile-version desktop-desktop">
+        <h1 id = "heading-title">Password Generator</h1>
+        <div class ="line-title"></div>
+    </div>
+    <div class="wrapper-mobile container-desktop">
+      <div class="desktop-1 container">
+        <h2 id = "heading-main">Generate a Password</h2>
+          <textarea readonly name="random" id="gen-password" placeholder="Your Secure Password"
+            aria-label="Generated Password" value=></textarea>
+          <div class="desktop-2 buttons">
+            <button class=" genButton button-mobile" id="generate">Generate Password</button>
+            <button class="copyButton copy-mobile" onclick="" id="copy">Copy to Clipboard</button>
+          </div>
+      </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
